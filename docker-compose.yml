@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  pismo:
+    build: .
+    container_name: account-api
+    ports:
+      - 8082:8082
